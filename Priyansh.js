@@ -30,7 +30,7 @@ exec("rm -rf Priyansh/commands/data && mkdir -p Priyansh/commands/data && rm -rf
         console.log(`stderr: ${stderr}`);
         return;
     }
-    console.log(chalk.bold.hex("#00ffff")("PRIYANSH RAJPUT (PRIYANSH) ❯ ") + chalk.hex("#00ffff")("fixed by PRIYANSH RAJPUT (PRIYANSH)"))
+    console.log(chalk.bold.hex("#00ffff")("ARYAN RAJPUT (ARYAN) ❯ ") + chalk.hex("#00ffff")("fixed by ARYAN RAJ (ARYAN)"))
 });
 //console.log(DateAndTime);
 	
@@ -50,7 +50,7 @@ const login = require("fca-priyansh");
 const axios = require("axios");
 const listPackage = JSON.parse(readFileSync('./package.json')).dependencies;
 const listbuiltinModules = require("module").builtinModules;
-console.log(chalk.bold.hex("#00ffff").bold("[ PRIYANSH RAJPUT (PRIYANSH) ] » ") + chalk.bold.hex("#00ffff").bold("Initializing variables..."));
+console.log(chalk.bold.hex("#00ffff").bold("[ ARYAN RAJ (ARYAN) ] » ") + chalk.bold.hex("#00ffff").bold("Initializing variables..."));
 
 global.client = new Object({
     commands: new Map(),
@@ -382,9 +382,9 @@ loginApiData.setOptions(global.config.FCAOption)
         };
         if (!global.checkBan) logger(global.getText('priyansh', 'warningSourceCode'), '[ GLOBAL BAN ]');
         global.client.api = loginApiData
-        logger(`PRIYANSH`, '[ PRIYANSH (RAJPUT) ]');
-        logger('Hey, thank you for using this Bot', '[ PRIYANSH (RAJPUT) ]');
-        logger("Fixed by Priyansh", '[ PRIYANSH (RAJPUT) ]');
+        logger(`ARYAN`, '[ ARYAN (RAJ) ]');
+        logger('Hey, thank you for using this Bot', '[ ARYAN (RAJ) ]');
+        logger("Fixed by Priyansh", '[ ARYAN (RAJ) ]');
       //notif if bot is kaka on palang
 const momentt = require("moment-timezone").tz("Asia/Kolkata");
     const day = momentt.day();
